@@ -111,7 +111,7 @@ li + .iteam {
   left: 0;
   bottom: 0;
   transform: translateX(-2px);
-
+  /* scale: 1;  */
   width: 107%;
   height: 4px;
   content: "";
@@ -221,6 +221,7 @@ li + .iteam {
 
 .backdrop {
   position: fixed;
+  z-index: 1;
   top: 0;
   left: 0;
   width: 100%;
